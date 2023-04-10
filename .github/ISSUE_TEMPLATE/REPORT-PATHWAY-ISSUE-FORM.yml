@@ -1,6 +1,6 @@
-name: Pathway Issue Report
+name: Pathway Curation
 description: Report an issue with a pathway at WikiPathways
-title: "[Pathway Issue]: "
+title: "[Pathway Curation Issue]: "
 labels: ["curation"]
 body:
   - type: markdown
@@ -18,8 +18,8 @@ body:
   - type: textarea
     id: issue-description
     attributes:
-      label: Pathway issue description
-      description: What is the issue with the pathway? Include a detailed description of the issue and any proposed solution. Including links to relevant materials is also useful.
+      label: What is the issue with the pathway?
+      description: Include a detailed description of the issue and any proposed solution. Including links to relevant materials is also useful.
       placeholder: Describe the issue
       value: "There's an error in the pathway!"
     validations:
@@ -27,7 +27,7 @@ body:
   - type: dropdown
     id: issue-category
     attributes:
-      label: What kind of problem is this? 
+      label: What kind of curation issue is this? 
       multiple: true
       options:
         - Missing content
