@@ -1,6 +1,6 @@
-name: Pathway Curation
+name: Pathway Content
 description: Report an issue with a pathway at WikiPathways
-title: "[Pathway Curation Issue]: "
+title: "[Pathway Content Issue]: "
 labels: ["curation"]
 body:
   - type: markdown
@@ -27,7 +27,7 @@ body:
   - type: dropdown
     id: issue-category
     attributes:
-      label: What kind of curation issue is this? 
+      label: What kind of content issue is this? 
       multiple: true
       options:
         - Missing content
