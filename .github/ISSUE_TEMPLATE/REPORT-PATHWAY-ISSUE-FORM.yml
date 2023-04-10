@@ -25,7 +25,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: categories
+    id: issue-category
     attributes:
       label: What kind of problem is this? 
       multiple: true
