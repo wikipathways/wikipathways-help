@@ -1,0 +1,36 @@
+name: Pathway Issue Report
+description: Report an issue with a pathway at WikiPathways
+title: "[Pathway Issue]: "
+labels: ["curation"]
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Pathway issue description
+      description: What is the issue with the pathway? Include a detailed description of the issue and any proposed solution. Including links to relevant materials is also useful.
+      placeholder: Describe the issue
+      value: "There's an error in the pathway!"
+    validations:
+      required: true
+  - type: dropdown
+    id: categories
+    attributes:
+      label: What?
+      multiple: true
+      options:
+        - Missing content
+        - Incorrect content
+        - Other
