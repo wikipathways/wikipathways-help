@@ -19,7 +19,7 @@ body:
     id: new-pathways
     attributes:
       label: New Pathways
-      description: List any new pathways this week (or "None" if there were none), preferably by WPID.
+      description: "List any new pathways this week, preferably by WPID."
       placeholder: New Pathways
       value: "List of new pathways"
     validations:
@@ -28,7 +28,7 @@ body:
     id: deleted-pathways
     attributes:
       label: Deleted Pathways
-      description: List any pathways that were deleted (or "None" if there were none), or if you don't have deletion rights, any pathways that are ready to be deleted.
+      description: "List any pathways that were deleted, or if you do not have deletion rights, any pathways that are ready to be deleted."
       placeholder: Deleted Pathways
       value: "List of pathways for deletion"
     validations:
