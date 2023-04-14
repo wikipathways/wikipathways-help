@@ -1,3 +1,5 @@
+name: Weekly Curation Report
+description: Weekly Curation Report
 title: "[Weekly Admin Curation Report]: "
 body:
   - type: markdown
