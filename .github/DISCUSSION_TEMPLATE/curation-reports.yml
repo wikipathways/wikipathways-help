@@ -8,19 +8,15 @@ body:
     id: recent-changes
     attributes:
       label: Recent changes
-      description: "Summarize recent changes"
-      value: |
-        1.
-        2.
-        3.
-        ...
+      description: "Summarize recent changes."
+      value: "Recent Changes"
       render: bash
     validations:
       required: true
   - type: textarea
     id: new-pathways
     attributes:
-      label: New Pathways
+      label: New pathways
       description: "List any new pathways this week, by WPID."
       placeholder: New Pathways
       value: "List of new pathways"
