@@ -17,11 +17,15 @@ body:
       render: bash
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: deleted-pathways
     attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
+      label: Deleted Pathways
+      description: "List any pathways that were deleted, or if you don't have deletion rights, any pathways that are ready to be deleted."
+      placeholder: Deleted Pathways
+      value: "List of pathways for deletion"
+    validations:
+      required: true
   - type: input
     id: has-id
     attributes:
