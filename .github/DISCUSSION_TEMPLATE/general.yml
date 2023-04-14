@@ -18,21 +18,30 @@ body:
     validations:
       required: true
   - type: textarea
+    id: new-pathways
+    attributes:
+      label: New Pathways
+      description: "List any new pathways this week, by WPID."
+      placeholder: New Pathways
+      value: "List of new pathways"
+    validations:
+      required: true
+  - type: textarea
     id: deleted-pathways
     attributes:
       label: Deleted Pathways
-      description: "List any pathways that were deleted, or if you don't have deletion rights, any pathways that are ready to be deleted."
+      description: "List any pathways that were deleted, or if you do not have deletion rights, any pathways that are ready to be deleted."
       placeholder: Deleted Pathways
-      value: "List of pathways for deletion"
+      value: "List of deleted pathways"
     validations:
       required: true
   - type: input
-    id: has-id
+    id: notes
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: Additional notes
+      description: "List any other additional notes from this week's activities."
     validations:
-      required: true
+      required: false
   - type: checkboxes
     attributes:
       label: Update Approved pathway tag
