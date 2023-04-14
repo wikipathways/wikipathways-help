@@ -1,5 +1,3 @@
-name: Weekly Admin Curation Report
-description: A summary of your admin curation activities
 title: "[Weekly Admin Curation Report]: "
 body:
   - type: markdown
