@@ -10,7 +10,6 @@ body:
       label: Recent changes
       description: "Summarize recent changes."
       value: "Recent Changes: "
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -19,7 +18,6 @@ body:
       label: Under construction
       description: "Evalutate pathways under construction."
       value: "Under Construction: "
-      render: bash
     validations:
       required: true
   - type: textarea
