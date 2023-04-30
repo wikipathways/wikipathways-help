@@ -9,7 +9,16 @@ body:
     attributes:
       label: Recent changes
       description: "Summarize recent changes."
-      value: "Recent Changes"
+      value: "Recent Changes: "
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: under-construction
+    attributes:
+      label: Under construction
+      description: "Evalutate pathways under construction."
+      value: "Under Construction: "
       render: bash
     validations:
       required: true
@@ -19,7 +28,7 @@ body:
       label: New pathways
       description: "List any new pathways this week, by WPID."
       placeholder: New Pathways
-      value: "List of new pathways"
+      value: "New pathways: "
     validations:
       required: true
   - type: textarea
@@ -28,7 +37,7 @@ body:
       label: Deleted Pathways
       description: "List any pathways that were deleted, or if you do not have deletion rights, any pathways that are ready to be deleted."
       placeholder: Deleted Pathways
-      value: "List of deleted pathways"
+      value: "Deleted pathways: "
     validations:
       required: true
   - type: input
