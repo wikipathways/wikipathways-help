@@ -38,11 +38,11 @@ body:
       value: "Deleted pathways: "
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: notes
     attributes:
       label: Additional notes
-      description: "List any other additional notes from this week's activities."
+      description: "Share additional notes from this week's activities."
     validations:
       required: false
   - type: checkboxes
