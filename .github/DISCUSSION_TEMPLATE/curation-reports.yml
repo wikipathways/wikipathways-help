@@ -1,4 +1,4 @@
-title: "[Weekly Curation Report]: "
+title: "[Weekly Curation Report]: <Month> <from date> - <to date>"
 body:
   - type: markdown
     attributes:
@@ -16,7 +16,7 @@ body:
     id: under-construction
     attributes:
       label: Under construction
-      description: "Evalutate pathways under construction."
+      description: "Evaluate pathways under construction."
       value: "Under Construction: "
     validations:
       required: true
@@ -42,7 +42,7 @@ body:
     id: notes
     attributes:
       label: Additional notes
-      description: "Share additional notes from this week's activities."
+      description: "Share any additional notes from this week's activities. If any GitHub issues were opened, for example for problematic pathway, add the URLs to issues here."
     validations:
       required: false
   - type: checkboxes
