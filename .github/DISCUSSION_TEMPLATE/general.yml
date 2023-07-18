@@ -3,7 +3,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for engaging the community and starting a discussion about the pathway!
+        Thanks for engaging the community and starting a discussion about the pathway! Pathway discussions may be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues) where appropriate.
   - type: textarea
     id: discussion-main
     attributes:
@@ -19,5 +19,5 @@ body:
       label: Should this pathway be deleted?
       description: Let us know if you think this pathway is not appropriate and should be deleted.
       options:
-        - label: Pathway should be deleted
+        - label: Yes, this pathway should be deleted
           required: false
