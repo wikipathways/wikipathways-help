@@ -27,10 +27,11 @@ body:
         - Duplicated content
         - Other
   - type: checkboxes
-    id: terms
+    id: revision-type
     attributes:
-      label: Should this pathway be deleted?
-      description: Let us know if you think this pathway is not appropriate and should be deleted.
+      label: Type of revision
+      description: Let us know what type of revision you are proposing.
       options:
-        - label: Pathway should be deleted
-          required: false
+        - label: Major
+        - label: Minor
+        - label: Deletion
