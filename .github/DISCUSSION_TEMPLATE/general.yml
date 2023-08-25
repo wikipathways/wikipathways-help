@@ -12,11 +12,14 @@ body:
       placeholder: Discussion
     validations:
       required: true
-  - type: input.multicheckbox
+
+  - type: checkboxes
+    id: revision-type
+    attributes:
       label: Type of revision
+      description: Let us know what type of revision you are proposing.
       options:
-        minor: Minor
-        major: Major
-        deletion: Deletion
-    validations:
-      required: true
+        - label: Major
+        - label: Minor
+        - label: Deletion
+          required: true
