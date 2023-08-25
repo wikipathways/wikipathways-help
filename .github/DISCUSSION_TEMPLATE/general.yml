@@ -10,14 +10,13 @@ body:
       label: Discussion
       description: Share your ideas and comments about the pathway with the community. Include links to any relevant external materials.
       placeholder: Discussion
-      value: "This is a great pathway, but it could benefit from....."
     validations:
       required: true
-  - type: checkboxes
-    id: deletion
-    attributes:
-      label: Should this pathway be deleted?
-      description: Let us know if you think this pathway is not appropriate and should be deleted.
+  - type: input.multicheckbox
+      label: Type of revision
       options:
-        - label: Yes, this pathway should be deleted
-          required: false
+        minor: Minor
+        major: Major
+        deletion: Deletion
+    validations:
+      required: true
