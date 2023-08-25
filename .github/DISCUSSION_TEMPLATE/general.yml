@@ -18,8 +18,6 @@ body:
     attributes:
       label: Type of revision
       description: Let us know what type of revision you are proposing.
-      validations:
-      required: true
       options:
         - label: Major
         - label: Minor
