@@ -6,14 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this issue report!
+        Thank you for your interest in WikiPathways and for helping us improve our content! Pathway issues may be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues) where appropriate.
   - type: textarea
     id: issue-description
     attributes:
-      label: What is the issue with the pathway?
-      description: Include a detailed description of the issue and any proposed solution. Including links to relevant materials is also useful.
+      label: What is the problem with the pathway?
+      description: Include a detailed description of any issues and any proposed solution. Including links to relevant materials is also useful.
       placeholder: Describe the issue
-      value: "There's an error in the pathway!"
+      value: 
     validations:
       required: true
   - type: dropdown
