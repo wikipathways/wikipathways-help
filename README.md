@@ -1,8 +1,13 @@
 # Wikipathways Help
 
-Welcome to WikiPathways Help! Feel free to ask any questions about the WikiPathways website or specific pathway curation topics in [Discussions](https://github.com/wikipathways/wikipathways-help/discussions). If you need to report a bug, use the [issue tracker](https://github.com/wikipathways/wikipathways-help/discussions).
-Note that adding your questions and problems here requires a [GitHub account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account).
+Welcome to WikiPathways Help! This repository is a place to discuss questions related to pathway curation in general and issues or questions about specific pathways. This repo also includes Curation Reports from WikiPathways Reviewers. 
 
-## Pathway-specific discussions
+## To ask a question or start a discussion about specific pathway
 
-This repo contains discussions for specific pathways at [WikiPathways](https://www.wikipathways.org/). Where appropriate (and after discussion on this repo has concluded), specific discussions will be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues). 
+Go to [Discussions](https://github.com/wikipathways/wikipathways-help/discussions) and start a new discussion using the green **New discussion** button. Select an appropriate category, for example **General** or **Pathway Discussion**. 
+
+Where appropriate (and after discussion on this repo has concluded), specific discussions may be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues). 
+
+## Curation reports
+
+Weekly curation reports from WikiPathways Reviewers are available under the [Curation Reports](https://github.com/wikipathways/wikipathways-help/discussions/categories/curation-reports) category.
