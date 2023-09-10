@@ -2,6 +2,10 @@
 
 Welcome to WikiPathways Help! This repository is a place to discuss questions related to pathway curation in general and issues or questions about specific pathways. This repo also includes Curation Reports from WikiPathways Reviewers. 
 
+## To report a bug or make a feature request
+
+Go to [Issues](https://github.com/wikipathways/wikipathways-help/issues) and start a new issue using the green **New issue** button. Consider using a template to "Get started" or "Open a blank issue."
+
 ## To ask a question or start a discussion about specific pathway
 
 Go to [Discussions](https://github.com/wikipathways/wikipathways-help/discussions) and start a new discussion using the green **New discussion** button. Select an appropriate category, for example **General** or **Pathway Discussion**. 
