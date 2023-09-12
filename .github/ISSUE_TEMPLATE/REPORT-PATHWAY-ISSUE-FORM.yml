@@ -1,6 +1,6 @@
 name: Pathway Content
 description: Report an issue with a pathway at WikiPathways
-title: "[Pathway Content Issue]: "
+title: "[Pathway Issue]: "
 labels: ["curation"]
 body:
   - type: markdown
@@ -10,22 +10,21 @@ body:
   - type: textarea
     id: issue-description
     attributes:
-      label: What is the problem with the pathway?
+      label: What is the issue with the pathway?
       description: Include a detailed description of any issues and any proposed solution. Including links to relevant materials is also useful.
       placeholder: Describe the issue
       value: 
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: issue-category
     attributes:
       label: What kind of content issue is this? 
-      multiple: true
       options:
-        - Missing content
-        - Incorrect content
-        - Duplicated content
-        - Other
+        - label: Missing content
+        - label: Incorrect content
+        - label: Duplicated content
+        - label: Other
   - type: checkboxes
     id: revision-type
     attributes:
