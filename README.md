@@ -4,7 +4,7 @@ Welcome to WikiPathways Help! This repository is a place to discuss questions re
 
 ## To report a bug or make a feature request
 
-Go to [Issues](https://github.com/wikipathways/wikipathways-help/issues) and start a new issue using the green **New issue** button. Consider using a template to "Get started" or "Open a blank issue."
+Go to [Issues](https://github.com/wikipathways/wikipathways-help/issues) and start a new issue using the green **New issue** button. Use a template issue, or the option for **Open a blank issue**.
 
 ## To ask a question or start a discussion about specific pathway
 
