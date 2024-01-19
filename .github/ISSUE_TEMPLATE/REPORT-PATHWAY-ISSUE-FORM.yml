@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in WikiPathways and for helping us improve our content! Pathway issues may be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues) where appropriate.
+        Thank you for your interest in WikiPathways and for helping us improve our content! Pathway issues reported here may be transferred to [Pathway Curation Tasks](https://github.com/wikipathways/pathway-curation-tasks/issues) where appropriate.
   - type: textarea
     id: issue-description
     attributes:
