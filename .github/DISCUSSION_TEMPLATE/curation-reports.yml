@@ -38,6 +38,12 @@ body:
       value: " * ... "
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Update Approved pathway tag
+      options:
+        - label: All Approved pathways tags were updated!
+          required: false
   - type: textarea
     id: notes
     attributes:
@@ -45,9 +51,3 @@ body:
       description: "Share any additional notes from this week's activities. If any GitHub issues were opened, for example for problematic pathway, add the URLs to issues here."
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: Update Approved pathway tag
-      options:
-        - label: All Approved pathways tags were updated!
-          required: false
