@@ -8,7 +8,7 @@ body:
     id: recent-changes
     attributes:
       label: Recent changes
-      description: "Summarize recent changes."
+      description: "Summarize recent changes. If there were ANY recent changes that you reverted during your review, please add them [here](https://docs.google.com/spreadsheets/d/1TiIMqp001euqNpH0tVbN5PMD1x-uoXV0sj3Dq43aKkk/edit#gid=0)"
       value: " * ... "
     validations:
       required: true
