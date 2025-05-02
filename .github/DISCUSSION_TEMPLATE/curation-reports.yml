@@ -42,7 +42,7 @@ body:
     attributes:
       label: Update Approved pathway tag
       options:
-        - label: All Approved pathways tags were updated!
+        - label: Confirm [all Approved tags](https://classic.wikipathways.org/index.php?title=Special:CurationTags&showPathwaysFor=Curation:AnalysisCollection) apply to the latest version (see last column) 
           required: false
   - type: textarea
     id: notes
